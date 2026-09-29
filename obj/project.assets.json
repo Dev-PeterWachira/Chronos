@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {}
   },
@@ -8,28 +8,36 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PeterMainaWachira\\.nuget\\packages\\": {}
+    "C:\\Users\\PeterMainaWachira\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PeterMainaWachira\\Adv-C#\\Chronos\\Chronos\\Chronos.csproj",
+      "projectUniqueName": "C:\\Users\\PeterMainaWachira\\Adv-C#\\Chronos\\Chronos.csproj",
       "projectName": "Chronos",
-      "projectPath": "C:\\Users\\PeterMainaWachira\\Adv-C#\\Chronos\\Chronos\\Chronos.csproj",
+      "projectPath": "C:\\Users\\PeterMainaWachira\\Adv-C#\\Chronos\\Chronos.csproj",
       "packagesPath": "C:\\Users\\PeterMainaWachira\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PeterMainaWachira\\Adv-C#\\Chronos\\Chronos\\obj\\",
+      "outputPath": "C:\\Users\\PeterMainaWachira\\Adv-C#\\Chronos\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\PeterMainaWachira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\PeterMainaWachira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -43,10 +51,12 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.400"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "imports": [
           "net461",
@@ -64,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.420/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

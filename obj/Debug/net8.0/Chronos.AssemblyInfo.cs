@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chronos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa3f7ed35e05ad43c07c0f856fb13d0c89ed2014")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chronos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chronos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
